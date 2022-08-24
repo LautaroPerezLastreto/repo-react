@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import personas from './data/personas.json'
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Suplements World</p>
+      {
+        personas.map(persona =>(
+          <div>
+            <p>Nombre: {persona.nombre}</p>
+            <p>Edad: {persona.precio}</p>
+            <hr/>
+          </div>
+        ))
+      }
     </div>
   );
 }
