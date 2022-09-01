@@ -2,6 +2,7 @@
 import './app/style.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/navegacion/NavBar'
+import ItemListContainer from './components/ItemListContainer'
 // import inicio from './components/paginas/Inicio'
 // import creatina from './components/paginas/Creatina'
 // import proteina from './components/paginas/Proteina'
@@ -21,6 +22,7 @@ const App = () => {
           <Route path = '/proteina' component={proteina}/>
         </Routes> */}
       </Router>
+      <ItemListContainer/>
     </div>
   );
 }
