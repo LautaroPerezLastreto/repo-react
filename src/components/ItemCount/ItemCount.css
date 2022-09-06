@@ -1,0 +1,8 @@
+.counter{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);;
+    color: #ffff;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
