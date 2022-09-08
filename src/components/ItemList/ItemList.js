@@ -1,11 +1,11 @@
-import Item from "../Item";
+import Item from "../Item/Item";
 import React from "react";
 
 
-const ItemList = () => {
+const ItemList = ({data = []}) => {
     return( 
-    <Item />
+    data.map(film => <Item key = {film.id} info = {film} />)
     );
-};
+}
 
 export default ItemList;

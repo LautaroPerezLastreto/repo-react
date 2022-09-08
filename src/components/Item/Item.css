@@ -1,6 +1,7 @@
 .film{
     display: block;
     width: 300px;
+    margin-left: 2rem;
 }
 .film img{
     width: 100%;
