@@ -1,27 +1,27 @@
 import React from 'react'
 import CartWidgets from '../CartWidgets'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container-fluid">
-    <Link to="/">
+    <NavLink to="/">
       <img src='./titulo-allfitness.jpg' width={50}/>
-    </Link>
+    </NavLink>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav mx-auto">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/creatina">Creatines</Link>
+          <NavLink className="nav-link" to="/categoria/films">Films</NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/proteina">Proteins</Link>
+          <NavLink className="nav-link" to="/categoria/series">Series</NavLink>
         </li>
         <li>
-          <Link className='nav-link' to = "/"><CartWidgets/> </Link>
+          <NavLink className='nav-link' to = "/cart"><CartWidgets/> </NavLink>
         </li>
       </ul>
     </div>
