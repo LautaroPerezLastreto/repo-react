@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container-fluid">
     <NavLink to="/">
-      <img src='./titulo-allfitness.jpg' width={50}/>
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuojvhEvqBf0qcICVHlJGK8vuaRW74SZFoSo5TwANYQz6sabt4N-ufIFg7AAllGRZCw8&usqp=CAU' width={50}/>
     </NavLink>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav mx-auto">
