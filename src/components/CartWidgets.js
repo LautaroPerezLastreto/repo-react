@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 const CartWidgets = () => {
+
   return (
     <i className="bi bi-cart"></i>
   )
