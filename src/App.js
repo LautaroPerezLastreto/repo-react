@@ -12,7 +12,7 @@ import CartProvider from './context/CartContext'
 // import proteina from './components/paginas/Proteina'
 
 export const CartContext = React.createContext('');
-console.log('CartContext: ', CartContext)
+// console.log('CartContext: ', CartContext)
 const App = () => {
   <div>
     <NavBar/>
